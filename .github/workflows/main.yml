@@ -27,7 +27,7 @@ jobs:
         version: 12 
 
     - name: GitHub action for Yarn
-      uses: Boralas/actions-yarn@v2.1.0
+      uses: Borales/actions-yarn@v2.1.0
       with:
         #Yarn Command
         cmd: install    #npm install / yarn install
