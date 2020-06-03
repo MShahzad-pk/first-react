@@ -40,3 +40,6 @@ jobs:
       
     - name: Deploying on surge at url first_reacte.surge.sh
       run: surge ./build first_reacte.surge.sh --token ${{ secret.SURGE_TOKEN}}
+      
+      
+      
